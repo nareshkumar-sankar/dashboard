@@ -1,0 +1,119 @@
+#content{
+    background-color: #fff;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 47px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header img{
+    width: 8px;
+    position: absolute;
+    right: 487px;
+    top: 65px;
+}
+#header h1{
+    font-size: 26.7px;
+    font-weight: 600;
+    color: #6967A1;
+    margin-left: 20px;
+}
+#header i{
+    padding: 15px;
+    color: #B1B2B9;
+}
+#filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#filter select{
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(255, 249, 249);
+    border: none;
+    color: #B1B2B6;
+}
+#filter p{
+    padding: 10px 20px;
+    font-size: 14.4px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.card{
+    display: flex;
+    background-color: gainsboro;
+    margin-top: 20px;
+    margin-left: 16px;
+    border-radius: 20px;
+    align-items: center;
+    width: 780px;
+    justify-content: center;
+    position: relative;
+}
+#card1{
+    background-color: #F4F4FC;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px, rgba(0, 0, 0, 0.22) 10px 12px 10px;
+}
+#card2{
+    background-color: #F6E9FA;
+}
+#card3{
+    background-color: #fff5e4;
+}
+.card img{
+    width: 218px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.card-content{
+    width: 300px;
+    text-align: left;
+}
+.card-content h3{
+    padding-bottom: 11px;
+    font-size: 18.3px;
+    font-weight: 600;
+    color: #48494C;
+}
+.card-content .text{
+    padding-bottom: 28px;
+    font-size: 14.3px;
+    font-weight: 500;
+    color: #B7B8BE;
+}
+.card i{
+    position: absolute;
+    bottom: 30px;
+    right: 46px;
+    border-radius: 50%;
+    padding: 20px 15px;
+}
+#arrow1{
+    background-color: #807DE3;
+}
+#arrow2{
+    background-color: #C17EE3;
+}
+#arrow3{
+    background-color: #E57EA0;
+}
+.card .text2{
+    font-size: 12.2px;
+    font-weight: 600;
+    color: #BEBFB5;
+}
+.card b{
+    margin-left: 10px;
+    font-weight: 600;
+    color: #7B7B81;
+}
